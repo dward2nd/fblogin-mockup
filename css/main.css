@@ -108,7 +108,7 @@ button:active, input[type="submit"]:active, input[type="reset"]:active, input[ty
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding: 40px 100px 100px 100px;
+    padding: 0 100px 100px 100px;
     width: 100%;
 }
 
@@ -206,6 +206,10 @@ button:active, input[type="submit"]:active, input[type="reset"]:active, input[ty
 }
 
 @media screen and (max-width: 1075px) {
+    #root {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
     #slogan {
         line-height: 2.1rem;
         font-size: 1.7rem;
