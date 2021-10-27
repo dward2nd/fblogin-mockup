@@ -1,0 +1,14 @@
+:root {
+    --box-shadow-default: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    --border-radius-card: 8px;
+    --border-radius-input-box: 6px;
+    --color-bg: #F0F2F5;
+    --color-border: #DDDFE2;
+    --color-green: #42B72A;
+    --color-primary: #19AFFF;
+    --color-primary-dark: #3677EA;
+    --color-primary-transparent: rgba(25, 175, 255, 0.1);
+    --color-text: #1C1E21;
+    --font-family-primary: "SF Pro Display", "Helvetica Neue", "Helvetica", "Segoe Pro Display", "Calibri", Arial, sans-serif;
+    --font-size-base: 14px;
+}
