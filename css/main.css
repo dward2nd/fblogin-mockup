@@ -1,18 +1,15 @@
 @import "variables.css";
 
 /********** BASIC **********/
-* {
+
+html {
     -moz-osx-font-smoothing: auto;
     -webkit-font-smoothing: antialiased;
     color: var(--color-text);
     font-family: var(--font-family-primary);
     font-size: var(--font-size-base);
-    text-rendering: optimizelegibility;
-}
-
-html {
-    font-size: var(--font-size-base);
     scroll-behavior: smooth;
+    text-rendering: optimizelegibility;
 }
 
 body {
@@ -30,10 +27,9 @@ a:hover, a:active {
     text-decoration: underline;
 }
 
-/* Make all block elements having box-sizing to border-box,
+/* Make all elements having box-sizing to border-box,
    for easier size designs */
-address, article, aside, blockquote, button, canvas, dd, div, dl, dt, fieldset, figcaption, figure, footer, form, h1,
-h2, h3, h4, h5, h6, header, hr, input, li, main, nav, noscript, ol, p, pre, section, table, tfoot, ul, video {
+*, *::before, *::after {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
